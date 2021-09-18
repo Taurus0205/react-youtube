@@ -17,7 +17,7 @@ import Watchlater from "../Lib/Svg/Watchlater";
 function Navbar() {
   return (
     <>
-      <div className="container nav-wrapper">
+      <div className="nav-wrapper">
         <div className="nav-first">
           <NavLink className="nav-link" to="/">
             <Home />

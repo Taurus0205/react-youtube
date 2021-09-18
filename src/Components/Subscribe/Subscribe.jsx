@@ -15,7 +15,7 @@ import nora from "../../Assests/Images/nora.svg";
 function Subscribe() {
   return (
     <>
-      <div className="container subscription">
+      <div className="subscription">
         <h2 className="subscription__header">Subscriptions</h2>
         <div className="subcription__inner">
           <NavLink className="subscription__link" to="/">
