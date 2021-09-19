@@ -18,7 +18,7 @@ function Subscribe() {
       <div className="subscription">
         <h2 className="subscription__header">Subscriptions</h2>
         <div className="subcription__inner">
-          <NavLink className="subscription__link" to="/">
+          <NavLink className="subscription__link" to="/channel">
             <img
               className="subscription__img"
               src={gussie}
@@ -29,7 +29,7 @@ function Subscribe() {
             <span className="subscription__span">Nora Francis</span>
           </NavLink>
 
-          <NavLink className="subscription__link" to="/">
+          <NavLink className="subscription__link" to="/channel">
             <img
               className="subscription__img"
               src={nora}
@@ -40,7 +40,7 @@ function Subscribe() {
             <span className="subscription__span">Belle Briggs</span>
           </NavLink>
 
-          <NavLink className="subscription__link" to="/">
+          <NavLink className="subscription__link" to="/channel">
             <img
               className="subscription__img"
               src={belle}
@@ -51,7 +51,7 @@ function Subscribe() {
             <span className="subscription__span">Eunice Cortez</span>
           </NavLink>
 
-          <NavLink className="subscription__link" to="/">
+          <NavLink className="subscription__link" to="/channel">
             <img
               className="subscription__img"
               src={eunice}
@@ -62,7 +62,7 @@ function Subscribe() {
             <span className="subscription__span">Emma Hanson</span>
           </NavLink>
 
-          <NavLink className="subscription__link" to="/">
+          <NavLink className="subscription__link" to="/channel">
             <img
               className="subscription__img"
               src={emma}
@@ -73,7 +73,7 @@ function Subscribe() {
             <span className="subscription__span">Leah Berry</span>
           </NavLink>
 
-          <NavLink className="subscription__link" to="/">
+          <NavLink className="subscription__link" to="/channel">
             <img
               className="subscription__img"
               src={leah}
@@ -85,7 +85,7 @@ function Subscribe() {
           </NavLink>
         </div>
 
-        <NavLink className="nav-link" to="/">
+        <NavLink className="nav-link" to="/channel">
           <Setting />
           Setting
         </NavLink>

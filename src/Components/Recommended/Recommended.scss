@@ -1,0 +1,17 @@
+.recommended__item {
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+  width: 100%;
+  max-width: 540px;
+  margin-bottom: 10px;
+}
+
+.recommended__item__img-wrapper {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 10px;
+}
+.recommended__item__img {
+  border-radius: 14px;
+}

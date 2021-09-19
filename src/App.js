@@ -1,13 +1,16 @@
+import React from "react";
+import { Switch, Route } from "react-router-dom";
+
 import "./App.scss";
+
+import HomePage from "./Pages/Home/Home";
+import Channel from "./Pages/Channel/Channel";
 
 // Components
 
 import Header from "./Components/Header/Header";
 import Navbar from "./Components/Navbar/Navbar";
 import Subscribe from "./Components/Subscribe/Subscribe";
-import Dollie from "./Components/Dollie/Dollie";
-import Recommended from "./Components/Recommended/Recommended";
-import Food from "./Components/Food/Food";
 
 function App() {
   return (
@@ -18,11 +21,10 @@ function App() {
           <Navbar />
           <Subscribe />
         </div>
-        <div>
-          <Dollie />
-          <Recommended />
-          <Food />
-        </div>
+        <Switch>
+          <Route path="/" component={HomePage} exact />
+          <Route path="/channel" component={Channel} exact />
+        </Switch>
       </main>
     </>
   );

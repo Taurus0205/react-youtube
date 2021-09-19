@@ -34,7 +34,7 @@ img {
 .container {
   width: 100%;
   max-width: 1940px;
-  padding: 0 10px;
+  padding: 0 20px;
   margin: 0 auto;
 }
 
@@ -43,6 +43,10 @@ img {
   flex-direction: column;
   width: 100%;
   max-width: 245px;
+
+  @media only screen and(max-width:775px) {
+    display: none;
+  }
 }
 
 .main {

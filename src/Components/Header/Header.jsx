@@ -78,7 +78,7 @@ function Header() {
         </button>
 
         <button className="btn settings-wrapper__btn" type="button">
-          <img src={Avatar} alt="user photo" width={40} height={40} />
+          <img src={Avatar} alt="user" width={40} height={40} />
         </button>
       </div>
     </>

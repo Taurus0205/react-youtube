@@ -2,6 +2,8 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "./Navbar.scss";
 
+// page
+
 import Home from "../Lib/Svg/Home";
 import Favourites from "../Lib/Svg/Favourites";
 import Games from "../Lib/Svg/Games";
