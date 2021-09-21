@@ -7,6 +7,9 @@
   display: flex;
   align-items: center;
   margin-bottom: 30px;
+  @media only screen and (max-width: 610px) {
+    justify-content: center;
+  }
 }
 
 .dollie__img {
@@ -25,6 +28,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: start;
+  @media only screen and (max-width: 610px) {
+    justify-content: center;
+  }
 }
 
 .dollie__item {

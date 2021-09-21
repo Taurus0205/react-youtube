@@ -44,7 +44,7 @@ img {
   width: 100%;
   max-width: 245px;
 
-  @media only screen and(max-width:775px) {
+  @media only screen and(max-width:945px) {
     display: none;
   }
 }
@@ -61,4 +61,7 @@ img {
   display: flex;
   justify-content: space-between;
   margin-bottom: 60px;
+  @media only screen and (max-width: 605px) {
+    justify-content: center;
+  }
 }

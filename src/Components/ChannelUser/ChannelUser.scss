@@ -4,11 +4,20 @@
   align-items: center;
   justify-content: space-between;
   margin-bottom: 20px;
+  padding-right: 35px;
+  @media only screen and (max-width: 605px) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 .channel-user__info-wrapper {
   display: flex;
   align-items: center;
+  @media only screen and (max-width: 605px) {
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
 }
 
 .channel-user__user-img {

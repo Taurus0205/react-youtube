@@ -4,10 +4,16 @@
 .channel-nav__list {
   display: flex;
   list-style: none;
+  @media only screen and (max-width: 605px) {
+    display: none;
+  }
 }
 
 .channel-nav__item {
   margin-right: 69px;
+  @media only screen and (max-width: 1390px) {
+    margin-right: 20px;
+  }
 }
 
 .channel-nav__link {

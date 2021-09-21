@@ -18,37 +18,39 @@ function Food() {
   return (
     <>
       <div className="food">
-        <NavLink className="dollie__link" to="/">
-          <img
-            className="dollie__img"
-            src={food}
-            alt="gussie"
-            width={50}
-            height={50}
-          />
-          <span className="dollie__span">Food & Drink</span>
+        <NavLink className="food__link" to="/">
+          <div className="food__heading-wrapper">
+            <img
+              className="food__img"
+              src={food}
+              alt="gussie"
+              width={50}
+              height={50}
+            />
+            <span className="food__span">Food & Drink</span>
+          </div>
           <span className="food__recommend-channel">
             Recommended channel for you
           </span>
         </NavLink>
 
-        <ul className="dollie__list">
+        <ul className="food__list">
           {films.length > 0 &&
             films.map((row) => (
-              <li className="dollie__item" key={row.id}>
-                <NavLink className="dollie__item__img-wrapper" to="/">
+              <li className="food__item" key={row.id}>
+                <NavLink className="food__item__img-wrapper" to="/">
                   <img
-                    className="dollie__item__img"
+                    className="food__item__img"
                     src={row.url}
                     alt={row.title}
                     width={250}
                     height={150}
                   />
-                  <span className="dollie__item__time-span">7:36</span>
+                  <span className="food__item__time-span">7:36</span>
                 </NavLink>
-                <span className="dollie__item__span">{row.title}</span>
+                <span className="food__item__span">{row.title}</span>
 
-                <div className="dollie__item__wrappper">
+                <div className="food__item__wrappper">
                   <span>240k views · 4 months ago</span>{" "}
                   <span>Food & Drink</span>
                 </div>

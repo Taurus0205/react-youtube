@@ -16,12 +16,12 @@ function Recommended() {
   const films = data.splice(0, 4);
   return (
     <>
-      <div className="dollie">
-        <NavLink className="dollie__link" to="/">
-          <span className="dollie__span">Recommended</span>
+      <div className="recommended">
+        <NavLink className="recommended__link" to="/">
+          <span className="recommended__span">Recommended</span>
         </NavLink>
 
-        <ul className="dollie__list">
+        <ul className="recommended__list">
           {films.length > 0 &&
             films.map((row) => (
               <li className="recommended__item" key={row.id}>
@@ -33,12 +33,12 @@ function Recommended() {
                     width={540}
                     height={250}
                   />
-                  <span className="dollie__item__time-span">3:40</span>
+                  <span className="recommended__item__time-span">3:40</span>
                 </NavLink>
-                <span className="dollie__item__span">{row.title}</span>
+                <span className="recommended__item__span">{row.title}</span>
 
-                <div className="dollie__item__wrappper">
-                  <span>34k views · 5 months ago</span>{" "}
+                <div className="recommended__item__wrappper">
+                  <span>34k views · 5 months ago</span>
                   <span>Gussie French</span>
                 </div>
               </li>
