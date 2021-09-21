@@ -1,4 +1,5 @@
 import "./Header.scss";
+import { NavLink } from "react-router-dom";
 
 // images
 import App from "../../Assests/Images/app.svg";
@@ -23,13 +24,15 @@ function Header() {
           />
         </button>
 
-        <img
-          className="header__logo"
-          src={Logo}
-          alt="youtube"
-          width={116}
-          height={25}
-        />
+        <NavLink to="/">
+          <img
+            className="header__logo"
+            src={Logo}
+            alt="youtube"
+            width={116}
+            height={25}
+          />
+        </NavLink>
 
         <div className="search-wrapper">
           <input
