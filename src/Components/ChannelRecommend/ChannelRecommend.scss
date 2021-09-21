@@ -1,0 +1,31 @@
+.channel-recommend-wrapper {
+  margin-right: 100px;
+}
+
+.channel-recommend__heading {
+  margin-bottom: 30px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #c2c2c2;
+}
+
+.channel-recommend__list {
+  list-style: none;
+}
+
+.channel-recommend__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.channel-recommend__img {
+  margin-right: 20px;
+}
+
+.channel-recommend__paragraph {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: #19202c;
+}
