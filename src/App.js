@@ -5,6 +5,7 @@ import "./App.scss";
 
 import HomePage from "./Pages/Home/Home";
 import Channel from "./Pages/Channel/Channel";
+import Video from "./Pages/Video/Video";
 
 // Components
 
@@ -24,6 +25,7 @@ function App() {
         <Switch>
           <Route path="/" component={HomePage} exact />
           <Route path="/channel" component={Channel} exact />
+          <Route path="/video" component={Video} exact />
         </Switch>
       </main>
     </>

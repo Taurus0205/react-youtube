@@ -1,3 +1,20 @@
+@font-face {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("./Assests/Fonts/mulish-v5-latin-regular.woff2") format("woff2"),
+    url("./Assests/Fonts/mulish-v5-latin-regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""),
+    url("./Assests/Fonts/mulish-v5-latin-700.woff2") format("woff2"),
+    url("./Assests/Fonts/mulish-v5-latin-700.woff") format("woff");
+}
+
 *,
 *::after,
 *::before {
@@ -8,8 +25,8 @@
 }
 
 body {
-  font-family: "Futura PT", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-    sans-serif;
+  font-family: "Mulish", "Futura PT", "Gill Sans", "Gill Sans MT", Calibri,
+    "Trebuchet MS", sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #333333;
