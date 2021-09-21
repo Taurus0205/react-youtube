@@ -38,7 +38,7 @@ function Food() {
           {films.length > 0 &&
             films.map((row) => (
               <li className="food__item" key={row.id}>
-                <NavLink className="food__item__img-wrapper" to="/">
+                <NavLink className="food__item__img-wrapper" to="/video">
                   <img
                     className="food__item__img"
                     src={row.url}

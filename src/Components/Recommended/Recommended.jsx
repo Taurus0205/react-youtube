@@ -25,7 +25,7 @@ function Recommended() {
           {films.length > 0 &&
             films.map((row) => (
               <li className="recommended__item" key={row.id}>
-                <NavLink className="recommended__item__img-wrapper" to="/">
+                <NavLink className="recommended__item__img-wrapper" to="/video">
                   <img
                     className="recommended__item__img"
                     src={row.url}

@@ -33,7 +33,7 @@ function Dollie() {
           {films.length > 0 &&
             films.map((row) => (
               <li className="dollie__item" key={row.id}>
-                <NavLink className="dollie__item__img-wrapper" to="/">
+                <NavLink className="dollie__item__img-wrapper" to="/video">
                   <img
                     className="dollie__item__img"
                     src={row.url}
